@@ -2441,7 +2441,7 @@
 	)
 	(symbol
 		(lib_id "cs25_onionsat:WLR089U0-I_RM")
-		(at 129.54 58.42 180)
+		(at 116.84 52.07 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2450,7 +2450,7 @@
 		(fields_autoplaced yes)
 		(uuid "26d8b800-032a-4919-a8ac-ac6b8f1989c3")
 		(property "Reference" "U7"
-			(at 129.54 25.4 0)
+			(at 116.84 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2458,7 +2458,7 @@
 			)
 		)
 		(property "Value" "WLR089U0-I_RM"
-			(at 129.54 27.94 0)
+			(at 116.84 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2466,7 +2466,7 @@
 			)
 		)
 		(property "Footprint" "OnionSAT_Gaia:MODULE_WLR089U0-I_RM"
-			(at 129.54 58.42 0)
+			(at 116.84 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2476,7 +2476,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 58.42 0)
+			(at 116.84 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2485,7 +2485,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.54 58.42 0)
+			(at 116.84 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2494,7 +2494,7 @@
 			)
 		)
 		(property "MF" "Microchip Technology"
-			(at 129.54 58.42 0)
+			(at 116.84 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2504,7 +2504,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "2.8mm"
-			(at 129.54 58.42 0)
+			(at 116.84 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2514,7 +2514,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 129.54 58.42 0)
+			(at 116.84 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2524,7 +2524,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 129.54 58.42 0)
+			(at 116.84 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2534,7 +2534,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/WLR089U0IRM/Microchip/view-part/?ref=eda"
-			(at 129.54 58.42 0)
+			(at 116.84 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2544,7 +2544,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 129.54 58.42 0)
+			(at 116.84 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2554,7 +2554,7 @@
 			)
 		)
 		(property "PARTREV" "B"
-			(at 129.54 58.42 0)
+			(at 116.84 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2564,7 +2564,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/WLR089U0IRM/Microchip/view-part/?ref=snap"
-			(at 129.54 58.42 0)
+			(at 116.84 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2574,7 +2574,7 @@
 			)
 		)
 		(property "MP" "WLR089U0IRM"
-			(at 129.54 58.42 0)
+			(at 116.84 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2584,7 +2584,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            ULTRA-LOW POWER LONG RANGE LORA MODULE (863-928 MHZ) 41 MODULE 13.5X17MM TRAY;\n                        \n"
-			(at 129.54 58.42 0)
+			(at 116.84 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2594,7 +2594,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 129.54 58.42 0)
+			(at 116.84 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2604,7 +2604,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Microchip"
-			(at 129.54 58.42 0)
+			(at 116.84 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
