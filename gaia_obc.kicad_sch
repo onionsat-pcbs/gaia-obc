@@ -5050,6 +5050,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 91.44) (xy 147.32 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0459ac60-9588-422c-83ae-0e3fe1715180")
+	)
+	(wire
+		(pts
 			(xy 187.96 53.34) (xy 201.93 53.34)
 		)
 		(stroke
@@ -5057,6 +5067,16 @@
 			(type default)
 		)
 		(uuid "054477a3-e5ff-40f7-b62e-afed33094880")
+	)
+	(wire
+		(pts
+			(xy 144.78 90.17) (xy 144.78 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05e3dabd-610b-45ab-8118-c0883b32e5a2")
 	)
 	(wire
 		(pts
@@ -5157,6 +5177,16 @@
 			(type default)
 		)
 		(uuid "191f812c-9a84-424d-9a37-a4cfcbf4c078")
+	)
+	(wire
+		(pts
+			(xy 130.81 91.44) (xy 128.27 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19e51f48-e91a-416b-8bc2-0fe1f9c6ad1a")
 	)
 	(wire
 		(pts
@@ -5270,7 +5300,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 91.44) (xy 128.27 91.44)
+			(xy 132.08 90.17) (xy 130.81 90.17)
 		)
 		(stroke
 			(width 0)
@@ -5420,7 +5450,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 81.28) (xy 203.2 73.66)
+			(xy 203.2 82.55) (xy 203.2 73.66)
 		)
 		(stroke
 			(width 0)
@@ -5470,7 +5500,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 91.44) (xy 147.32 91.44)
+			(xy 142.24 90.17) (xy 144.78 90.17)
 		)
 		(stroke
 			(width 0)
@@ -5750,6 +5780,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 90.17) (xy 130.81 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87c23433-ddd4-4ef8-a2fa-0355cfcc1f10")
+	)
+	(wire
+		(pts
 			(xy 48.26 78.74) (xy 46.99 78.74)
 		)
 		(stroke
@@ -5980,7 +6020,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 81.28) (xy 203.2 81.28)
+			(xy 234.95 82.55) (xy 203.2 82.55)
 		)
 		(stroke
 			(width 0)
@@ -7919,7 +7959,7 @@
 	)
 	(symbol
 		(lib_id "Device:Buzzer")
-		(at 219.71 83.82 0)
+		(at 237.49 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7927,7 +7967,7 @@
 		(dnp no)
 		(uuid "40e1b9e1-334d-4aa2-ba2c-9206153246c6")
 		(property "Reference" "BZ1"
-			(at 220.4651 91.44 0)
+			(at 238.2451 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7935,15 +7975,15 @@
 			)
 		)
 		(property "Value" "Buzzer"
-			(at 220.4651 88.9 0)
+			(at 238.2451 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 219.075 81.28 90)
+		(property "Footprint" "gaia_obc-footprints:buzzer_MLT-5020"
+			(at 236.855 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7952,7 +7992,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 219.075 81.28 90)
+			(at 236.855 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7961,7 +8001,7 @@
 			)
 		)
 		(property "Description" "Buzzer, polarized"
-			(at 219.71 83.82 0)
+			(at 237.49 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8273,7 +8313,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 217.17 86.36 270)
+		(at 234.95 87.63 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8282,7 +8322,7 @@
 		(fields_autoplaced yes)
 		(uuid "557af7ca-ea84-4a18-a46d-7a8aa3de586a")
 		(property "Reference" "#PWR032"
-			(at 210.82 86.36 0)
+			(at 228.6 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8291,7 +8331,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 213.36 86.3599 90)
+			(at 231.14 87.6299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8300,7 +8340,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 217.17 86.36 0)
+			(at 234.95 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8309,7 +8349,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 86.36 0)
+			(at 234.95 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8318,7 +8358,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 217.17 86.36 0)
+			(at 234.95 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8874,7 +8914,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 135.89 91.44 0)
+		(at 137.16 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8883,7 +8923,7 @@
 		(fields_autoplaced yes)
 		(uuid "6e36320b-e60e-4491-8e86-ac088a68fb89")
 		(property "Reference" "SW2"
-			(at 135.89 83.82 0)
+			(at 137.16 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8891,7 +8931,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 135.89 86.36 0)
+			(at 137.16 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8899,7 +8939,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 86.36 0)
+			(at 137.16 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8908,7 +8948,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 135.89 86.36 0)
+			(at 137.16 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8917,7 +8957,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 135.89 91.44 0)
+			(at 137.16 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
