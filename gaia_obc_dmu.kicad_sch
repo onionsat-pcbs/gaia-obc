@@ -3248,6 +3248,10 @@
 		(uuid "6aabb37d-1c45-42c6-ac55-9cfe02ff6fe4")
 	)
 	(no_connect
+		(at 86.36 91.44)
+		(uuid "998c9432-421a-46bd-b3e3-8f2ed0d1331d")
+	)
+	(no_connect
 		(at 44.45 33.02)
 		(uuid "9da34d7f-d24d-4bf3-abfe-d5055190e9db")
 	)
@@ -3322,6 +3326,16 @@
 			(type default)
 		)
 		(uuid "0a930bb4-0bcd-414a-92d9-c7fd69f49e50")
+	)
+	(wire
+		(pts
+			(xy 34.29 104.14) (xy 36.83 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a9f960b-1277-4ce1-9627-db82b4d3193c")
 	)
 	(wire
 		(pts
@@ -3652,6 +3666,16 @@
 			(type default)
 		)
 		(uuid "9cd5956e-c964-423b-b885-7db720ec4495")
+	)
+	(wire
+		(pts
+			(xy 34.29 101.6) (xy 36.83 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3b58926-c5ff-4e6c-b488-44f7abadf244")
 	)
 	(wire
 		(pts
@@ -4079,7 +4103,7 @@
 	)
 	(hierarchical_label "GPS_RX"
 		(shape input)
-		(at 36.83 104.14 180)
+		(at 34.29 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4211,7 +4235,7 @@
 	)
 	(hierarchical_label "GPS_TX"
 		(shape output)
-		(at 36.83 101.6 180)
+		(at 34.29 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4229,7 +4253,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00fec4ba-55b8-4513-8c70-312358b3889e")
-		(property "Reference" "#PWR0122"
+		(property "Reference" "#PWR0144"
 			(at 109.22 44.45 0)
 			(effects
 				(font
@@ -4280,7 +4304,7 @@
 		(instances
 			(project "gaia_obc"
 				(path "/049f7784-e0f9-4d41-b308-330ac61e4408/fbf62360-00e1-4059-a494-d7d297b53182"
-					(reference "#PWR0122")
+					(reference "#PWR0144")
 					(unit 1)
 				)
 			)
@@ -4295,7 +4319,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0d2980c8-506b-47d9-96e1-3a05a5b0cda4")
-		(property "Reference" "#PWR0137"
+		(property "Reference" "#PWR0159"
 			(at 243.84 49.53 0)
 			(effects
 				(font
@@ -4346,7 +4370,7 @@
 		(instances
 			(project "gaia_obc"
 				(path "/049f7784-e0f9-4d41-b308-330ac61e4408/fbf62360-00e1-4059-a494-d7d297b53182"
-					(reference "#PWR0137")
+					(reference "#PWR0159")
 					(unit 1)
 				)
 			)
@@ -4362,7 +4386,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13b9efb5-6072-4b05-aeae-dfb8018037ea")
-		(property "Reference" "#PWR0126"
+		(property "Reference" "#PWR0148"
 			(at 166.37 71.12 0)
 			(effects
 				(font
@@ -4413,7 +4437,7 @@
 		(instances
 			(project "gaia_obc"
 				(path "/049f7784-e0f9-4d41-b308-330ac61e4408/fbf62360-00e1-4059-a494-d7d297b53182"
-					(reference "#PWR0126")
+					(reference "#PWR0148")
 					(unit 1)
 				)
 			)
@@ -4429,7 +4453,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "16f9a7c9-f0a3-4972-b638-70469d046e34")
-		(property "Reference" "R55"
+		(property "Reference" "R64"
 			(at 231.14 99.06 90)
 			(effects
 				(font
@@ -4445,7 +4469,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 231.14 93.98 0)
 			(effects
 				(font
@@ -4481,7 +4505,7 @@
 		(instances
 			(project "gaia_obc"
 				(path "/049f7784-e0f9-4d41-b308-330ac61e4408/fbf62360-00e1-4059-a494-d7d297b53182"
-					(reference "R55")
+					(reference "R64")
 					(unit 1)
 				)
 			)
@@ -4496,7 +4520,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1d45d986-9d73-4914-98f5-61ad0ad4a8fa")
-		(property "Reference" "#PWR0140"
+		(property "Reference" "#PWR0162"
 			(at 243.84 93.98 0)
 			(effects
 				(font
@@ -4547,7 +4571,7 @@
 		(instances
 			(project "gaia_obc"
 				(path "/049f7784-e0f9-4d41-b308-330ac61e4408/fbf62360-00e1-4059-a494-d7d297b53182"
-					(reference "#PWR0140")
+					(reference "#PWR0162")
 					(unit 1)
 				)
 			)
@@ -4562,7 +4586,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1e09905f-8b02-49cc-aa4c-339352d6902c")
-		(property "Reference" "#PWR0120"
+		(property "Reference" "#PWR0143"
 			(at 111.76 96.52 0)
 			(effects
 				(font
@@ -4613,7 +4637,7 @@
 		(instances
 			(project "gaia_obc"
 				(path "/049f7784-e0f9-4d41-b308-330ac61e4408/fbf62360-00e1-4059-a494-d7d297b53182"
-					(reference "#PWR0120")
+					(reference "#PWR0143")
 					(unit 1)
 				)
 			)
@@ -4698,7 +4722,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "268297d3-3e21-44fe-b6be-db364cd102f8")
-		(property "Reference" "#PWR0118"
+		(property "Reference" "#PWR0140"
 			(at 96.52 54.61 0)
 			(effects
 				(font
@@ -4749,7 +4773,7 @@
 		(instances
 			(project "gaia_obc"
 				(path "/049f7784-e0f9-4d41-b308-330ac61e4408/fbf62360-00e1-4059-a494-d7d297b53182"
-					(reference "#PWR0118")
+					(reference "#PWR0140")
 					(unit 1)
 				)
 			)
@@ -4765,7 +4789,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2e86a8de-f7c7-4c9e-af5d-b8b9306de09a")
-		(property "Reference" "R53"
+		(property "Reference" "R62"
 			(at 231.14 68.58 90)
 			(effects
 				(font
@@ -4781,7 +4805,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 231.14 63.5 0)
 			(effects
 				(font
@@ -4817,7 +4841,7 @@
 		(instances
 			(project "gaia_obc"
 				(path "/049f7784-e0f9-4d41-b308-330ac61e4408/fbf62360-00e1-4059-a494-d7d297b53182"
-					(reference "R53")
+					(reference "R62")
 					(unit 1)
 				)
 			)
@@ -5013,7 +5037,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38bb0e85-a20c-407e-a5b5-5603ac36510e")
-		(property "Reference" "#PWR0129"
+		(property "Reference" "#PWR0151"
 			(at 193.04 76.2 0)
 			(effects
 				(font
@@ -5064,7 +5088,7 @@
 		(instances
 			(project "gaia_obc"
 				(path "/049f7784-e0f9-4d41-b308-330ac61e4408/fbf62360-00e1-4059-a494-d7d297b53182"
-					(reference "#PWR0129")
+					(reference "#PWR0151")
 					(unit 1)
 				)
 			)
@@ -5079,7 +5103,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3d133d20-f035-4d7c-8447-325faa9f9bb0")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR0133"
 			(at 35.56 45.72 0)
 			(effects
 				(font
@@ -5130,7 +5154,7 @@
 		(instances
 			(project "gaia_obc"
 				(path "/049f7784-e0f9-4d41-b308-330ac61e4408/fbf62360-00e1-4059-a494-d7d297b53182"
-					(reference "#PWR0111")
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -5146,7 +5170,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f3e76b3-862b-4cee-8a6e-f2d590571352")
-		(property "Reference" "#PWR0124"
+		(property "Reference" "#PWR0146"
 			(at 149.86 80.01 0)
 			(effects
 				(font
@@ -5197,7 +5221,7 @@
 		(instances
 			(project "gaia_obc"
 				(path "/049f7784-e0f9-4d41-b308-330ac61e4408/fbf62360-00e1-4059-a494-d7d297b53182"
-					(reference "#PWR0124")
+					(reference "#PWR0146")
 					(unit 1)
 				)
 			)
@@ -5283,7 +5307,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4c19f7e6-226c-4096-9fb4-c399f8b092ed")
-		(property "Reference" "R52"
+		(property "Reference" "R61"
 			(at 231.14 54.61 90)
 			(effects
 				(font
@@ -5299,7 +5323,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 231.14 49.53 0)
 			(effects
 				(font
@@ -5335,7 +5359,7 @@
 		(instances
 			(project "gaia_obc"
 				(path "/049f7784-e0f9-4d41-b308-330ac61e4408/fbf62360-00e1-4059-a494-d7d297b53182"
-					(reference "R52")
+					(reference "R61")
 					(unit 1)
 				)
 			)
@@ -5350,7 +5374,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4df5dde2-4792-4ad6-b7bb-a7524ca82333")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR0136"
 			(at 71.12 185.42 0)
 			(effects
 				(font
@@ -5401,7 +5425,7 @@
 		(instances
 			(project "gaia_obc"
 				(path "/049f7784-e0f9-4d41-b308-330ac61e4408/fbf62360-00e1-4059-a494-d7d297b53182"
-					(reference "#PWR0114")
+					(reference "#PWR0136")
 					(unit 1)
 				)
 			)
@@ -5416,7 +5440,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4fc5e5de-cd57-4fb5-b75a-6f352316e888")
-		(property "Reference" "#PWR0133"
+		(property "Reference" "#PWR0155"
 			(at 220.98 63.5 0)
 			(effects
 				(font
@@ -5467,7 +5491,7 @@
 		(instances
 			(project "gaia_obc"
 				(path "/049f7784-e0f9-4d41-b308-330ac61e4408/fbf62360-00e1-4059-a494-d7d297b53182"
-					(reference "#PWR0133")
+					(reference "#PWR0155")
 					(unit 1)
 				)
 			)
@@ -5482,7 +5506,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "530f2e55-5ad0-4198-b020-b99e5790f195")
-		(property "Reference" "#PWR0131"
+		(property "Reference" "#PWR0153"
 			(at 220.98 35.56 0)
 			(effects
 				(font
@@ -5533,7 +5557,7 @@
 		(instances
 			(project "gaia_obc"
 				(path "/049f7784-e0f9-4d41-b308-330ac61e4408/fbf62360-00e1-4059-a494-d7d297b53182"
-					(reference "#PWR0131")
+					(reference "#PWR0153")
 					(unit 1)
 				)
 			)
@@ -5548,7 +5572,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "54634fca-cc3c-4a24-9f52-30d1c80a9509")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR0156"
 			(at 220.98 78.74 0)
 			(effects
 				(font
@@ -5599,7 +5623,7 @@
 		(instances
 			(project "gaia_obc"
 				(path "/049f7784-e0f9-4d41-b308-330ac61e4408/fbf62360-00e1-4059-a494-d7d297b53182"
-					(reference "#PWR0134")
+					(reference "#PWR0156")
 					(unit 1)
 				)
 			)
@@ -5684,7 +5708,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "62ee4523-f5a8-413f-bdb7-5b69a1b8cc1b")
-		(property "Reference" "R47"
+		(property "Reference" "R56"
 			(at 39.37 109.22 90)
 			(effects
 				(font
@@ -5700,7 +5724,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 39.37 104.14 0)
 			(effects
 				(font
@@ -5736,7 +5760,7 @@
 		(instances
 			(project "gaia_obc"
 				(path "/049f7784-e0f9-4d41-b308-330ac61e4408/fbf62360-00e1-4059-a494-d7d297b53182"
-					(reference "R47")
+					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -5751,7 +5775,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6358ab04-451a-4c44-be2a-199d3a9a6e34")
-		(property "Reference" "#PWR0127"
+		(property "Reference" "#PWR0149"
 			(at 167.64 57.15 0)
 			(effects
 				(font
@@ -5802,7 +5826,7 @@
 		(instances
 			(project "gaia_obc"
 				(path "/049f7784-e0f9-4d41-b308-330ac61e4408/fbf62360-00e1-4059-a494-d7d297b53182"
-					(reference "#PWR0127")
+					(reference "#PWR0149")
 					(unit 1)
 				)
 			)
@@ -5817,7 +5841,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "64ab968c-b815-41c9-83e6-9cf5e0f44a95")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR0138"
 			(at 101.6 153.67 0)
 			(effects
 				(font
@@ -5868,7 +5892,7 @@
 		(instances
 			(project "gaia_obc"
 				(path "/049f7784-e0f9-4d41-b308-330ac61e4408/fbf62360-00e1-4059-a494-d7d297b53182"
-					(reference "#PWR0116")
+					(reference "#PWR0138")
 					(unit 1)
 				)
 			)
@@ -5978,7 +6002,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6fb9ece5-effe-43a0-a9ae-c332623102f7")
-		(property "Reference" "#PWR0139"
+		(property "Reference" "#PWR0161"
 			(at 243.84 78.74 0)
 			(effects
 				(font
@@ -6029,7 +6053,7 @@
 		(instances
 			(project "gaia_obc"
 				(path "/049f7784-e0f9-4d41-b308-330ac61e4408/fbf62360-00e1-4059-a494-d7d297b53182"
-					(reference "#PWR0139")
+					(reference "#PWR0161")
 					(unit 1)
 				)
 			)
@@ -6114,7 +6138,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "83a454fc-331f-4e1c-bafe-8823f5fc3a25")
-		(property "Reference" "#PWR0130"
+		(property "Reference" "#PWR0152"
 			(at 182.88 78.74 0)
 			(effects
 				(font
@@ -6165,7 +6189,7 @@
 		(instances
 			(project "gaia_obc"
 				(path "/049f7784-e0f9-4d41-b308-330ac61e4408/fbf62360-00e1-4059-a494-d7d297b53182"
-					(reference "#PWR0130")
+					(reference "#PWR0152")
 					(unit 1)
 				)
 			)
@@ -6433,7 +6457,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8eddc8d8-5432-40ca-8033-a10f31d89bf6")
-		(property "Reference" "#PWR0138"
+		(property "Reference" "#PWR0160"
 			(at 243.84 63.5 0)
 			(effects
 				(font
@@ -6484,7 +6508,7 @@
 		(instances
 			(project "gaia_obc"
 				(path "/049f7784-e0f9-4d41-b308-330ac61e4408/fbf62360-00e1-4059-a494-d7d297b53182"
-					(reference "#PWR0138")
+					(reference "#PWR0160")
 					(unit 1)
 				)
 			)
@@ -6499,7 +6523,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "91b8ce31-b8a1-4bcf-9bec-6bb890e52783")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "#PWR0139"
 			(at 96.52 44.45 0)
 			(effects
 				(font
@@ -6550,7 +6574,7 @@
 		(instances
 			(project "gaia_obc"
 				(path "/049f7784-e0f9-4d41-b308-330ac61e4408/fbf62360-00e1-4059-a494-d7d297b53182"
-					(reference "#PWR0117")
+					(reference "#PWR0139")
 					(unit 1)
 				)
 			)
@@ -6566,7 +6590,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9275b4f9-9ce8-4787-83ae-8ccd41f5cf1c")
-		(property "Reference" "R50"
+		(property "Reference" "R59"
 			(at 175.26 78.74 90)
 			(effects
 				(font
@@ -6582,7 +6606,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 175.26 73.66 0)
 			(effects
 				(font
@@ -6618,7 +6642,7 @@
 		(instances
 			(project "gaia_obc"
 				(path "/049f7784-e0f9-4d41-b308-330ac61e4408/fbf62360-00e1-4059-a494-d7d297b53182"
-					(reference "R50")
+					(reference "R59")
 					(unit 1)
 				)
 			)
@@ -6634,7 +6658,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "933e730d-02a1-4392-9184-8629e226b476")
-		(property "Reference" "D3"
+		(property "Reference" "D12"
 			(at 91.44 100.838 0)
 			(effects
 				(font
@@ -6695,7 +6719,7 @@
 		(instances
 			(project "gaia_obc"
 				(path "/049f7784-e0f9-4d41-b308-330ac61e4408/fbf62360-00e1-4059-a494-d7d297b53182"
-					(reference "D3")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -6710,7 +6734,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c8ff249-7da5-4a63-88f5-74a5ae022925")
-		(property "Reference" "#PWR0128"
+		(property "Reference" "#PWR0150"
 			(at 182.88 66.04 0)
 			(effects
 				(font
@@ -6761,7 +6785,7 @@
 		(instances
 			(project "gaia_obc"
 				(path "/049f7784-e0f9-4d41-b308-330ac61e4408/fbf62360-00e1-4059-a494-d7d297b53182"
-					(reference "#PWR0128")
+					(reference "#PWR0150")
 					(unit 1)
 				)
 			)
@@ -6846,7 +6870,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a989a709-9b70-4eaa-b8fb-42d9d67fac47")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR0158"
 			(at 243.84 35.56 0)
 			(effects
 				(font
@@ -6897,7 +6921,7 @@
 		(instances
 			(project "gaia_obc"
 				(path "/049f7784-e0f9-4d41-b308-330ac61e4408/fbf62360-00e1-4059-a494-d7d297b53182"
-					(reference "#PWR0136")
+					(reference "#PWR0158")
 					(unit 1)
 				)
 			)
@@ -7084,7 +7108,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b8582387-e75b-482f-893b-2ea4a0be0b46")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR0137"
 			(at 92.71 119.38 0)
 			(effects
 				(font
@@ -7135,7 +7159,7 @@
 		(instances
 			(project "gaia_obc"
 				(path "/049f7784-e0f9-4d41-b308-330ac61e4408/fbf62360-00e1-4059-a494-d7d297b53182"
-					(reference "#PWR0115")
+					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
@@ -7219,7 +7243,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bdaa6f4a-d6dd-420f-84f8-cc7e67c0fd74")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR0132"
 			(at 45.72 40.64 0)
 			(effects
 				(font
@@ -7270,7 +7294,7 @@
 		(instances
 			(project "gaia_obc"
 				(path "/049f7784-e0f9-4d41-b308-330ac61e4408/fbf62360-00e1-4059-a494-d7d297b53182"
-					(reference "#PWR0110")
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -7355,7 +7379,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c37d3b62-3a0e-4009-8484-d5492d798899")
-		(property "Reference" "#PWR0121"
+		(property "Reference" "#PWR0142"
 			(at 101.6 88.9 0)
 			(effects
 				(font
@@ -7406,7 +7430,7 @@
 		(instances
 			(project "gaia_obc"
 				(path "/049f7784-e0f9-4d41-b308-330ac61e4408/fbf62360-00e1-4059-a494-d7d297b53182"
-					(reference "#PWR0121")
+					(reference "#PWR0142")
 					(unit 1)
 				)
 			)
@@ -7422,7 +7446,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c5a91b5f-4f33-435e-a0c5-002533ead0c5")
-		(property "Reference" "R49"
+		(property "Reference" "R58"
 			(at 149.86 85.09 90)
 			(effects
 				(font
@@ -7438,7 +7462,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 149.86 80.01 0)
 			(effects
 				(font
@@ -7474,7 +7498,7 @@
 		(instances
 			(project "gaia_obc"
 				(path "/049f7784-e0f9-4d41-b308-330ac61e4408/fbf62360-00e1-4059-a494-d7d297b53182"
-					(reference "R49")
+					(reference "R58")
 					(unit 1)
 				)
 			)
@@ -7489,7 +7513,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c9dd98f5-6553-4525-9f60-47a07ca757c1")
-		(property "Reference" "#PWR0123"
+		(property "Reference" "#PWR0145"
 			(at 109.22 54.61 0)
 			(effects
 				(font
@@ -7540,7 +7564,7 @@
 		(instances
 			(project "gaia_obc"
 				(path "/049f7784-e0f9-4d41-b308-330ac61e4408/fbf62360-00e1-4059-a494-d7d297b53182"
-					(reference "#PWR0123")
+					(reference "#PWR0145")
 					(unit 1)
 				)
 			)
@@ -7555,7 +7579,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cbda6d0b-85f8-4027-9fbf-94aa6f574405")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR0157"
 			(at 220.98 93.98 0)
 			(effects
 				(font
@@ -7606,7 +7630,7 @@
 		(instances
 			(project "gaia_obc"
 				(path "/049f7784-e0f9-4d41-b308-330ac61e4408/fbf62360-00e1-4059-a494-d7d297b53182"
-					(reference "#PWR0135")
+					(reference "#PWR0157")
 					(unit 1)
 				)
 			)
@@ -7621,7 +7645,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cccc2dd4-3511-4612-893c-8be9011ae0e6")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR0135"
 			(at 71.12 149.86 0)
 			(effects
 				(font
@@ -7672,7 +7696,7 @@
 		(instances
 			(project "gaia_obc"
 				(path "/049f7784-e0f9-4d41-b308-330ac61e4408/fbf62360-00e1-4059-a494-d7d297b53182"
-					(reference "#PWR0113")
+					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
@@ -7688,7 +7712,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d1b59d8f-9711-4f22-9abe-83a6398da5f2")
-		(property "Reference" "R51"
+		(property "Reference" "R60"
 			(at 231.14 40.64 90)
 			(effects
 				(font
@@ -7704,7 +7728,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 231.14 35.56 0)
 			(effects
 				(font
@@ -7740,7 +7764,7 @@
 		(instances
 			(project "gaia_obc"
 				(path "/049f7784-e0f9-4d41-b308-330ac61e4408/fbf62360-00e1-4059-a494-d7d297b53182"
-					(reference "R51")
+					(reference "R60")
 					(unit 1)
 				)
 			)
@@ -7824,7 +7848,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e1cdcf2f-0b3c-4db6-aca1-d43c533167c3")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR0134"
 			(at 55.88 147.32 0)
 			(effects
 				(font
@@ -7875,7 +7899,7 @@
 		(instances
 			(project "gaia_obc"
 				(path "/049f7784-e0f9-4d41-b308-330ac61e4408/fbf62360-00e1-4059-a494-d7d297b53182"
-					(reference "#PWR0112")
+					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
@@ -7890,7 +7914,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e5ba53f1-666b-4cd0-8b6b-015bfba10ce7")
-		(property "Reference" "#PWR0119"
+		(property "Reference" "#PWR0141"
 			(at 96.52 74.93 0)
 			(effects
 				(font
@@ -7941,7 +7965,7 @@
 		(instances
 			(project "gaia_obc"
 				(path "/049f7784-e0f9-4d41-b308-330ac61e4408/fbf62360-00e1-4059-a494-d7d297b53182"
-					(reference "#PWR0119")
+					(reference "#PWR0141")
 					(unit 1)
 				)
 			)
@@ -7957,7 +7981,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eaf9c0f5-4091-43e5-b2b5-a5a3ee366d7e")
-		(property "Reference" "R54"
+		(property "Reference" "R63"
 			(at 231.14 83.82 90)
 			(effects
 				(font
@@ -7973,7 +7997,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 231.14 78.74 0)
 			(effects
 				(font
@@ -8009,7 +8033,7 @@
 		(instances
 			(project "gaia_obc"
 				(path "/049f7784-e0f9-4d41-b308-330ac61e4408/fbf62360-00e1-4059-a494-d7d297b53182"
-					(reference "R54")
+					(reference "R63")
 					(unit 1)
 				)
 			)
@@ -8025,7 +8049,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ec889bf5-8161-4632-a828-5bafacd31f90")
-		(property "Reference" "R48"
+		(property "Reference" "R57"
 			(at 101.6 101.6 90)
 			(effects
 				(font
@@ -8041,7 +8065,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 101.6 96.52 0)
 			(effects
 				(font
@@ -8077,7 +8101,7 @@
 		(instances
 			(project ""
 				(path "/049f7784-e0f9-4d41-b308-330ac61e4408/fbf62360-00e1-4059-a494-d7d297b53182"
-					(reference "R48")
+					(reference "R57")
 					(unit 1)
 				)
 			)
@@ -8092,7 +8116,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ef114cfe-7d8d-42ea-8f90-daf44b1a63d2")
-		(property "Reference" "#PWR0132"
+		(property "Reference" "#PWR0154"
 			(at 220.98 49.53 0)
 			(effects
 				(font
@@ -8143,7 +8167,7 @@
 		(instances
 			(project "gaia_obc"
 				(path "/049f7784-e0f9-4d41-b308-330ac61e4408/fbf62360-00e1-4059-a494-d7d297b53182"
-					(reference "#PWR0132")
+					(reference "#PWR0154")
 					(unit 1)
 				)
 			)
@@ -8302,7 +8326,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f18ecda7-9056-4e98-ba7e-d1ce3635bd2c")
-		(property "Reference" "#PWR0125"
+		(property "Reference" "#PWR0147"
 			(at 161.29 92.71 0)
 			(effects
 				(font
@@ -8353,7 +8377,7 @@
 		(instances
 			(project "gaia_obc"
 				(path "/049f7784-e0f9-4d41-b308-330ac61e4408/fbf62360-00e1-4059-a494-d7d297b53182"
-					(reference "#PWR0125")
+					(reference "#PWR0147")
 					(unit 1)
 				)
 			)
@@ -8369,7 +8393,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f56e822e-da8a-48b0-b8da-7d24dbb004a8")
-		(property "Reference" "R46"
+		(property "Reference" "R55"
 			(at 39.37 96.52 90)
 			(effects
 				(font
@@ -8385,7 +8409,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 39.37 101.6 0)
 			(effects
 				(font
@@ -8421,7 +8445,7 @@
 		(instances
 			(project "gaia_obc"
 				(path "/049f7784-e0f9-4d41-b308-330ac61e4408/fbf62360-00e1-4059-a494-d7d297b53182"
-					(reference "R46")
+					(reference "R55")
 					(unit 1)
 				)
 			)
