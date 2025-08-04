@@ -4671,7 +4671,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS647_Sx50"
+		(property "Footprint" "gaia_obc-footprints:KEY-SMD_4P-L3.1-W3.1-P2.00-LS4.0"
 			(at 241.3 30.48 0)
 			(effects
 				(font
@@ -5255,7 +5255,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS647_Sx50"
+		(property "Footprint" "gaia_obc-footprints:KEY-SMD_4P-L3.1-W3.1-P2.00-LS4.0"
 			(at 241.3 44.45 0)
 			(effects
 				(font
@@ -6087,7 +6087,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS647_Sx50"
+		(property "Footprint" "gaia_obc-footprints:KEY-SMD_4P-L3.1-W3.1-P2.00-LS4.0"
 			(at 241.3 58.42 0)
 			(effects
 				(font
@@ -6819,7 +6819,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS647_Sx50"
+		(property "Footprint" "gaia_obc-footprints:KEY-SMD_4P-L3.1-W3.1-P2.00-LS4.0"
 			(at 241.3 73.66 0)
 			(effects
 				(font
@@ -7328,7 +7328,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS647_Sx50"
+		(property "Footprint" "gaia_obc-footprints:KEY-SMD_4P-L3.1-W3.1-P2.00-LS4.0"
 			(at 241.3 88.9 0)
 			(effects
 				(font
