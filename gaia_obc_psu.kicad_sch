@@ -3687,7 +3687,7 @@
 		)
 		(uuid "0f30e7ca-7f77-40d4-9ba6-26bea85bc322")
 	)
-	(text_box "OBC Power"
+	(text_box "A2 Power"
 		(exclude_from_sim no)
 		(at 154.94 72.39 0)
 		(size 21.59 2.54)
@@ -3706,7 +3706,7 @@
 		)
 		(uuid "4150af04-dd6e-4647-b014-c32ec5f0138e")
 	)
-	(text_box "OBC Power"
+	(text_box "A1 Power"
 		(exclude_from_sim no)
 		(at 154.94 41.91 0)
 		(size 21.59 2.54)
@@ -3744,7 +3744,7 @@
 		)
 		(uuid "6f684c08-3bae-4f7a-944c-cfcc8aa22f32")
 	)
-	(text_box "OBC Power"
+	(text_box "B1 Power"
 		(exclude_from_sim no)
 		(at 154.94 133.35 0)
 		(size 21.59 2.54)
@@ -3858,7 +3858,7 @@
 		)
 		(uuid "d16d786d-0a8b-470d-9fe8-754905321062")
 	)
-	(text_box "OBC Power"
+	(text_box "B2 Power"
 		(exclude_from_sim no)
 		(at 154.94 163.83 0)
 		(size 21.59 2.54)
@@ -3877,7 +3877,7 @@
 		)
 		(uuid "d794836e-dedd-472b-8d70-32848c6ac576")
 	)
-	(text_box "OBC Power"
+	(text_box "A3 Power"
 		(exclude_from_sim no)
 		(at 154.94 102.87 0)
 		(size 21.59 2.54)
@@ -7361,7 +7361,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "0,1"
 			(at 85.09 144.7799 0)
 			(effects
 				(font
@@ -9590,7 +9590,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "0,1"
 			(at 85.09 53.3399 0)
 			(effects
 				(font
@@ -11306,7 +11306,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "0,1"
 			(at 85.09 152.3999 0)
 			(effects
 				(font
@@ -11377,7 +11377,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "0,1"
 			(at 85.09 60.9599 0)
 			(effects
 				(font
@@ -14041,7 +14041,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "0,1"
 			(at 85.09 160.0199 0)
 			(effects
 				(font
@@ -15992,7 +15992,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "0,1"
 			(at 85.09 68.5799 0)
 			(effects
 				(font
