@@ -7540,7 +7540,7 @@
 			(net 109 "/PB2")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "fbbd7d80-67ca-4bf3-ac07-bd80d7d68d72")
+			(uuid "25573b23-8e80-478e-b41c-da2b4bc80a84")
 		)
 		(pad "2" smd rect
 			(at -1.875 1 180)
@@ -7558,7 +7558,7 @@
 			(net 13 "+3.3V")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "504be2aa-35f7-4350-94c9-46960e6a5463")
+			(uuid "5cb1e911-a8cc-4d47-8abe-b5f27af365c4")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/EASYEDA_MODELS/KEY-SMD_4P-L3.1-W3.1-P2.00-LS4.0.step"
@@ -29828,7 +29828,7 @@
 			(net 104 "/PB1")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "a83bac88-951d-4af3-99da-92610c75a14c")
+			(uuid "130ff6a5-9d54-4964-98b8-c8b3777e1b0f")
 		)
 		(pad "2" smd rect
 			(at -1.875 1 180)
@@ -29846,7 +29846,7 @@
 			(net 13 "+3.3V")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "3b9225d2-3554-4c2c-b77b-865a60c005f9")
+			(uuid "984eba9d-ac22-4f3c-aa96-f46d41319d8b")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/EASYEDA_MODELS/KEY-SMD_4P-L3.1-W3.1-P2.00-LS4.0.step"
@@ -40075,6 +40075,17 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "be57aae0-7ddd-41cc-86dc-d1d9c476e874")
+	)
+	(gr_circle
+		(center 165 100.696938)
+		(end 193 100.696938)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.4")
+		(uuid "8e79842f-634e-45ba-92f7-7f781407b147")
 	)
 	(group ""
 		(uuid "b80ef47b-b497-46fb-b983-68fc9a2ca50e")
