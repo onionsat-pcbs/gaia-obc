@@ -4353,6 +4353,12 @@
 		(uuid "f0574202-18ac-4802-8e35-4a8df65cfe41")
 	)
 	(junction
+		(at 64.77 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0d67512-1517-4f04-8aae-c3182eda74e4")
+	)
+	(junction
 		(at 245.11 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4660,6 +4666,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 128.27) (xy 64.77 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dc2a6ed-abff-42a2-bd3a-6862511b10f7")
+	)
+	(wire
+		(pts
 			(xy 78.74 66.04) (xy 74.93 66.04)
 		)
 		(stroke
@@ -4867,6 +4883,16 @@
 			(type default)
 		)
 		(uuid "37aa5f77-87b8-41e3-ad52-b17d02e38a22")
+	)
+	(wire
+		(pts
+			(xy 64.77 128.27) (xy 64.77 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3971a0d3-8743-4938-a2ea-9bf6be6670b7")
 	)
 	(wire
 		(pts
@@ -5310,6 +5336,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 38.1) (xy 66.04 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ec199d7-c023-4d9a-a2fa-8b8e53aba089")
+	)
+	(wire
+		(pts
 			(xy 41.91 133.35) (xy 41.91 142.24)
 		)
 		(stroke
@@ -5490,6 +5526,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 35.56) (xy 64.77 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78eaa5ea-c824-42e4-8ebe-03eeb562367a")
+	)
+	(wire
+		(pts
 			(xy 247.65 147.2809) (xy 247.65 147.32)
 		)
 		(stroke
@@ -5567,6 +5613,16 @@
 			(type default)
 		)
 		(uuid "7c45bfdb-18b4-4035-bed8-1418ed69a04b")
+	)
+	(wire
+		(pts
+			(xy 64.77 125.73) (xy 64.77 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f261c85-5725-46eb-9f16-ccdf2c37b8cc")
 	)
 	(wire
 		(pts
@@ -6230,6 +6286,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 128.27) (xy 73.66 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c67cf147-2c18-4fc0-a43c-5ff4438f79e6")
+	)
+	(wire
+		(pts
 			(xy 49.53 58.42) (xy 30.48 58.42)
 		)
 		(stroke
@@ -6637,6 +6703,16 @@
 			(type default)
 		)
 		(uuid "ed9806a2-8f24-4574-aded-12d5f460167d")
+	)
+	(wire
+		(pts
+			(xy 77.47 38.1) (xy 74.93 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed9d5e47-be77-4a94-ac46-95097b7e16c9")
 	)
 	(wire
 		(pts
@@ -7469,7 +7545,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 87.63 143.51 0)
 			(effects
 				(font
@@ -7648,7 +7724,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 64.77 43.18 0)
+		(at 64.77 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7656,7 +7732,7 @@
 		(dnp no)
 		(uuid "0fce6d09-8358-4dbe-ad57-c214d7c2809f")
 		(property "Reference" "#PWR078"
-			(at 64.77 46.99 0)
+			(at 64.77 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7665,7 +7741,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 64.77 40.132 90)
+			(at 64.77 32.512 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7674,7 +7750,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 43.18 0)
+			(at 64.77 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7683,7 +7759,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 43.18 0)
+			(at 64.77 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7692,7 +7768,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 64.77 43.18 0)
+			(at 64.77 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8237,6 +8313,75 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
+		(at 71.12 128.27 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e20ad2a-d00a-43c3-b262-09a81342ac6e")
+		(property "Reference" "C45"
+			(at 72.39 122.174 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 69.85 120.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 71.12 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 71.12 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b93f574d-6108-47d3-a966-7becdd45a140")
+		)
+		(pin "1"
+			(uuid "1d5296f6-933e-45ea-8a06-ec55ffaf9749")
+		)
+		(instances
+			(project "gaia_obc"
+				(path "/049f7784-e0f9-4d41-b308-330ac61e4408/2f52491f-f42b-4e90-ba73-93737998193c"
+					(reference "C45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
 		(at 157.48 179.07 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8500,6 +8645,75 @@
 			(project "gaia_obc"
 				(path "/049f7784-e0f9-4d41-b308-330ac61e4408/2f52491f-f42b-4e90-ba73-93737998193c"
 					(reference "#PWR0127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 72.39 38.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2567e644-6537-4fbb-b52a-ef9543018d1f")
+		(property "Reference" "C48"
+			(at 73.406 32.004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 71.12 29.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 72.39 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 72.39 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4b26a2d9-930a-4784-bc9f-4629e85e7226")
+		)
+		(pin "1"
+			(uuid "c23d9082-8688-42f6-afc3-3e22e99db447")
+		)
+		(instances
+			(project "gaia_obc"
+				(path "/049f7784-e0f9-4d41-b308-330ac61e4408/2f52491f-f42b-4e90-ba73-93737998193c"
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -9630,7 +9844,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 87.63 52.07 0)
 			(effects
 				(font
@@ -9811,6 +10025,73 @@
 			(project "gaia_obc"
 				(path "/049f7784-e0f9-4d41-b308-330ac61e4408/2f52491f-f42b-4e90-ba73-93737998193c"
 					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 77.47 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46aa63b6-4454-40f9-8596-5ba5b11a91ef")
+		(property "Reference" "#PWR0179"
+			(at 83.82 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 81.28 38.0999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 77.47 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0904852-1b6b-4763-9791-49c60eefcdce")
+		)
+		(instances
+			(project "gaia_obc"
+				(path "/049f7784-e0f9-4d41-b308-330ac61e4408/2f52491f-f42b-4e90-ba73-93737998193c"
+					(reference "#PWR0179")
 					(unit 1)
 				)
 			)
@@ -11346,7 +11627,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 87.63 151.13 0)
 			(effects
 				(font
@@ -11417,7 +11698,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 87.63 59.69 0)
 			(effects
 				(font
@@ -12149,6 +12430,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 76.2 128.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89c42c48-5c53-4960-8800-9f775baa5128")
+		(property "Reference" "#PWR0161"
+			(at 82.55 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 80.01 128.2699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 76.2 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "815f73ae-81c7-48d6-b7f8-74b3e0d390e5")
+		)
+		(instances
+			(project "gaia_obc"
+				(path "/049f7784-e0f9-4d41-b308-330ac61e4408/2f52491f-f42b-4e90-ba73-93737998193c"
+					(reference "#PWR0161")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 137.16 158.75 0)
 		(mirror y)
 		(unit 1)
@@ -12717,7 +13065,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 64.77 134.62 0)
+		(at 64.77 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12725,7 +13073,7 @@
 		(dnp no)
 		(uuid "91f8c953-acba-47b5-84ac-7382fd795f6d")
 		(property "Reference" "#PWR080"
-			(at 64.77 138.43 0)
+			(at 64.77 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12734,7 +13082,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 64.77 131.572 90)
+			(at 64.77 122.682 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12743,7 +13091,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 134.62 0)
+			(at 64.77 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12752,7 +13100,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 134.62 0)
+			(at 64.77 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12761,7 +13109,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 64.77 134.62 0)
+			(at 64.77 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14161,7 +14509,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 87.63 158.75 0)
 			(effects
 				(font
@@ -16111,7 +16459,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 87.63 67.31 0)
 			(effects
 				(font

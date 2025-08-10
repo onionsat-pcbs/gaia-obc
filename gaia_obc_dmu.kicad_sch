@@ -3464,12 +3464,6 @@
 		(color 0 0 0 0)
 		(uuid "8ffa7321-c104-43be-9034-55e779be106d")
 	)
-	(junction
-		(at 168.91 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a386b03d-3982-45ab-b377-b9e8c6442614")
-	)
 	(no_connect
 		(at 36.83 55.88)
 		(uuid "11a98326-42a0-4d7c-a7d7-b0001474a651")
@@ -3797,7 +3791,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 63.5) (xy 190.5 63.5)
+			(xy 163.83 63.5) (xy 190.5 63.5)
 		)
 		(stroke
 			(width 0)
@@ -4097,16 +4091,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 60.96) (xy 168.91 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca93c051-0836-49b2-852b-96888b777929")
-	)
-	(wire
-		(pts
 			(xy 96.52 48.26) (xy 96.52 46.99)
 		)
 		(stroke
@@ -4234,16 +4218,6 @@
 			(type default)
 		)
 		(uuid "e6c87ff1-63ef-4273-978f-6e69bb1d35d5")
-	)
-	(wire
-		(pts
-			(xy 163.83 63.5) (xy 168.91 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ead8f382-02f9-4b3c-92ce-5d53312e0c1c")
 	)
 	(wire
 		(pts
@@ -6404,72 +6378,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 168.91 55.88 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6358ab04-451a-4c44-be2a-199d3a9a6e34")
-		(property "Reference" "#PWR0161"
-			(at 168.91 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 168.91 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 168.91 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 168.91 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9974d02a-be88-43b2-be92-ef0705791e31")
-		)
-		(instances
-			(project "gaia_obc"
-				(path "/049f7784-e0f9-4d41-b308-330ac61e4408/fbf62360-00e1-4059-a494-d7d297b53182"
-					(reference "#PWR0161")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 110.49 153.67 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7995,75 +7903,6 @@
 			(project ""
 				(path "/049f7784-e0f9-4d41-b308-330ac61e4408/fbf62360-00e1-4059-a494-d7d297b53182"
 					(reference "U18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 168.91 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b62c567d-5e44-4055-8acf-3737f0554dd7")
-		(property "Reference" "C45"
-			(at 162.814 57.404 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 160.782 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 168.91 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 168.91 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 168.91 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "77048b50-3a65-4e33-b412-919d385eb53f")
-		)
-		(pin "1"
-			(uuid "657d6827-26a2-4428-8a7a-fa37357b2bce")
-		)
-		(instances
-			(project "gaia_obc"
-				(path "/049f7784-e0f9-4d41-b308-330ac61e4408/fbf62360-00e1-4059-a494-d7d297b53182"
-					(reference "C45")
 					(unit 1)
 				)
 			)
