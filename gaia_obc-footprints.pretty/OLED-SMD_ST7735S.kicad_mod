@@ -6,6 +6,7 @@
 	(property "Reference" "U?"
 		(at -0.004 -17.252 0)
 		(layer "B.SilkS")
+		(hide yes)
 		(uuid "c61d5177-b079-47cb-bb3d-8aab9938a7af")
 		(effects
 			(font
@@ -128,7 +129,7 @@
 	)
 	(fp_line
 		(start -4.6 4.25)
-		(end -4.6 12.3)
+		(end -4.6 11.4)
 		(stroke
 			(width 0.254)
 			(type default)
@@ -137,18 +138,8 @@
 		(uuid "79930e77-356e-47c7-b623-ffedca8703be")
 	)
 	(fp_line
-		(start -4.6 12.3)
-		(end 4.4 12.3)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(layer "B.SilkS")
-		(uuid "75cf16fe-3b3c-4e2f-849e-e8345fb6466f")
-	)
-	(fp_line
 		(start 4.4 4.25)
-		(end 4.4 12.3)
+		(end 4.4 11.5)
 		(stroke
 			(width 0.254)
 			(type default)
@@ -425,7 +416,7 @@
 		(uuid "5e1efb4b-8bff-4479-bf8a-fcc35c4828c3")
 	)
 	(fp_rect
-		(start -4.6 11.5245)
+		(start -4.6 11.6745)
 		(end 4.4 12.3)
 		(stroke
 			(width 0.1)
@@ -720,19 +711,6 @@
 		)
 		(layer "User.2")
 		(uuid "3ba70aec-08b4-481b-9f5d-c052b0c9f199")
-	)
-	(fp_poly
-		(pts
-			(xy 6.114567 12.277039) (xy 6.147039 12.244567) (xy 6.192961 12.244567) (xy 6.225433 12.277039) (xy 6.225433 12.322961)
-			(xy 6.192961 12.355433) (xy 6.147039 12.355433) (xy 6.114567 12.322961)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill yes)
-		(layer "User.3")
-		(uuid "8828f4da-4c23-4be6-a900-594f2d123834")
 	)
 	(pad "1" smd rect
 		(at -4.2 0 180)
