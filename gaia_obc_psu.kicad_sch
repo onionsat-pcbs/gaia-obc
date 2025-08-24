@@ -4191,6 +4191,12 @@
 		(uuid "9525b676-dfd6-4769-947d-3f9ed1af35c6")
 	)
 	(junction
+		(at 64.77 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a769d77-76cb-4e21-811d-5b85a1fd1abf")
+	)
+	(junction
 		(at 87.63 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5016,6 +5022,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 38.1) (xy 69.85 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4424841f-43f6-4dd0-a852-83c6ded45adc")
+	)
+	(wire
+		(pts
 			(xy 153.67 29.21) (xy 153.67 26.67)
 		)
 		(stroke
@@ -5226,6 +5242,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 38.1) (xy 64.77 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "552ca55c-b157-4bdb-9ba1-fee3e84cda17")
+	)
+	(wire
+		(pts
 			(xy 115.57 148.59) (xy 127 148.59)
 		)
 		(stroke
@@ -5333,16 +5359,6 @@
 			(type default)
 		)
 		(uuid "5d76cf70-ac02-41fd-ae76-c149ce337244")
-	)
-	(wire
-		(pts
-			(xy 69.85 38.1) (xy 66.04 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ec199d7-c023-4d9a-a2fa-8b8e53aba089")
 	)
 	(wire
 		(pts
@@ -5526,7 +5542,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 35.56) (xy 64.77 43.18)
+			(xy 64.77 35.56) (xy 64.77 38.1)
 		)
 		(stroke
 			(width 0)
@@ -10379,7 +10395,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 219.71 39.37 180)
+		(at 219.71 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10387,7 +10403,7 @@
 		(dnp no)
 		(uuid "4df9cc0e-c916-42bd-9383-74b1249bf7c9")
 		(property "Reference" "D11"
-			(at 219.71 44.958 0)
+			(at 219.71 43.434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10395,7 +10411,7 @@
 			)
 		)
 		(property "Value" "LED_Small"
-			(at 219.964 42.672 0)
+			(at 219.71 41.402 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14756,7 +14772,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 219.71 36.83 180)
+		(at 219.71 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14772,7 +14788,7 @@
 			)
 		)
 		(property "Value" "LED_Small"
-			(at 219.71 34.544 0)
+			(at 219.71 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
