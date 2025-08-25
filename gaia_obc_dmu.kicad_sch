@@ -5487,7 +5487,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Module:HOPERF_RFM9XW_SMD"
+		(property "Footprint" "gaia_obc-footprints:HOPERF_RFM9XW_SMD"
 			(at -12.7 119.38 0)
 			(effects
 				(font
@@ -7984,7 +7984,7 @@
 		(dnp no)
 		(uuid "bd76bec2-2d66-4467-b545-10150dc9e075")
 		(property "Reference" "C40"
-			(at 101.346 45.466 0)
+			(at 102.616 45.466 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8877,7 +8877,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_LGA:Bosch_LGA-8_2.5x2.5mm_P0.65mm_ClockwisePinNumbering"
+		(property "Footprint" "gaia_obc-footprints:Bosch_LGA-8_2.5x2.5mm_P0.65mm_ClockwisePinNumbering"
 			(at 190.5 151.13 0)
 			(effects
 				(font
@@ -9165,7 +9165,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134_Vertical"
+		(property "Footprint" "gaia_obc-footprints:SMA-TH_HL-SMA-KHD2"
 			(at 104.14 153.67 0)
 			(effects
 				(font
@@ -9301,7 +9301,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "gaia_obc-footprints:SOT-23"
 			(at 165.1 74.295 0)
 			(effects
 				(font

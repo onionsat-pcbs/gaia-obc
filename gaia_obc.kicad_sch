@@ -11145,7 +11145,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-28-1EP_6x6mm_P0.65mm_EP4.25x4.25mm"
+		(property "Footprint" "gaia_obc-footprints:QFN-28-1EP_6x6mm_P0.65mm_EP4.25x4.25mm"
 			(at 63.5 186.69 0)
 			(effects
 				(font
@@ -11576,7 +11576,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "gaia_obc-footprints:SOT-23"
 			(at 243.84 86.995 0)
 			(effects
 				(font
@@ -12398,7 +12398,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-666"
+		(property "Footprint" "gaia_obc-footprints:SOT-666"
 			(at 60.706 105.791 0)
 			(effects
 				(font
@@ -17566,7 +17566,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_2x10_P2.00mm_Vertical_SMD"
+		(property "Footprint" "gaia_obc-footprints:PinHeader_2x10_P2.00mm_Vertical_SMD"
 			(at 85.09 38.1 0)
 			(effects
 				(font
@@ -18425,7 +18425,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_2x10_P2.00mm_Vertical_SMD"
+		(property "Footprint" "gaia_obc-footprints:PinHeader_2x10_P2.00mm_Vertical_SMD"
 			(at 40.64 38.1 0)
 			(effects
 				(font

@@ -8171,7 +8171,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:Texas_RGV0016A_VQFN-16-1EP_4x4mm_P0.65mm_EP2.1x2.1mm"
+		(property "Footprint" "gaia_obc-footprints:Texas_RGV0016A_VQFN-16-1EP_4x4mm_P0.65mm_EP2.1x2.1mm"
 			(at 62.23 33.02 0)
 			(effects
 				(font
@@ -9234,7 +9234,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" "gaia_obc-footprints:SOT-23-6"
 			(at 137.16 138.43 0)
 			(effects
 				(font
@@ -9995,7 +9995,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "gaia_obc-footprints:SOT-23-5"
 			(at 227.33 141.605 0)
 			(effects
 				(font
@@ -10139,7 +10139,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" "gaia_obc-footprints:SOT-23-6"
 			(at 137.16 46.99 0)
 			(effects
 				(font
@@ -10698,7 +10698,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" "gaia_obc-footprints:SOT-23-6"
 			(at 214.63 78.74 0)
 			(effects
 				(font
@@ -11182,7 +11182,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:Texas_RGV0016A_VQFN-16-1EP_4x4mm_P0.65mm_EP2.1x2.1mm"
+		(property "Footprint" "gaia_obc-footprints:Texas_RGV0016A_VQFN-16-1EP_4x4mm_P0.65mm_EP2.1x2.1mm"
 			(at 62.23 124.46 0)
 			(effects
 				(font
@@ -11494,7 +11494,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "gaia_obc-footprints:SOT-23-6"
 			(at 137.16 169.545 0)
 			(effects
 				(font
@@ -12673,7 +12673,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.65mm_EP1.55x2.4mm"
+		(property "Footprint" "gaia_obc-footprints:DFN-8-1EP_3x3mm_P0.65mm_EP1.55x2.4mm"
 			(at 235.458 59.69 0)
 			(effects
 				(font
@@ -13644,7 +13644,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" "gaia_obc-footprints:SOT-23-6"
 			(at 222.504 90.678 0)
 			(effects
 				(font
@@ -14872,7 +14872,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" "gaia_obc-footprints:SOT-23-6"
 			(at 137.16 77.47 0)
 			(effects
 				(font
@@ -15836,7 +15836,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" "gaia_obc-footprints:SOT-23-6"
 			(at 137.16 107.95 0)
 			(effects
 				(font
@@ -16323,7 +16323,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" "gaia_obc-footprints:SOT-23-6"
 			(at 137.16 16.51 0)
 			(effects
 				(font
