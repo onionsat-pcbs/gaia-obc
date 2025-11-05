@@ -5641,7 +5641,8 @@
 			(type solid)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 0)
 		)
 		(uuid 01e7fbb5-198e-4638-a198-780ec04edfa6)
 	)
@@ -5654,7 +5655,8 @@
 			(type solid)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 0)
 		)
 		(uuid 14ca6c60-4785-41d5-8014-96128b7223cf)
 	)
@@ -5667,7 +5669,8 @@
 			(type solid)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 0)
 		)
 		(uuid 30874af0-50d9-44ae-b7f9-069f01e5149b)
 	)
@@ -5680,7 +5683,8 @@
 			(type solid)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 0)
 		)
 		(uuid 317537f8-57e7-45fe-b80b-8c3a3bad60db)
 	)
@@ -5694,7 +5698,8 @@
 			(type solid)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 0)
 		)
 		(uuid 434c4147-51eb-4e41-8097-ea403600198a)
 	)
@@ -5718,7 +5723,8 @@
 			(type solid)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 0)
 		)
 		(uuid 4476a802-0245-4af6-88d8-dce90be67071)
 	)
@@ -5769,7 +5775,8 @@
 			(type solid)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 0)
 		)
 		(uuid 4794c70c-6ae5-4f22-b747-8d553f423324)
 	)
@@ -5806,7 +5813,8 @@
 			(type solid)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 0)
 		)
 		(uuid 79d7a631-f677-4f87-a841-b3ced5b03eac)
 	)
@@ -5832,7 +5840,8 @@
 			(type solid)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 0)
 		)
 		(uuid 8b9c31ad-eeaa-4887-b6d0-3e349d4df4b5)
 	)
@@ -5857,7 +5866,8 @@
 			(type solid)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 0)
 		)
 		(uuid db918473-b057-4d67-b56e-d02c0deff685)
 	)
@@ -5908,7 +5918,8 @@
 			(type solid)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 0)
 		)
 		(uuid dc906b51-5408-480b-8bad-d5bad725b8e3)
 	)
@@ -5964,7 +5975,8 @@
 			(type solid)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 0)
 		)
 		(uuid dec21178-05c1-4635-ad71-bde6d878fb26)
 	)
@@ -5989,7 +6001,8 @@
 			(type solid)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 0)
 		)
 		(uuid f68ef1ae-e5ba-457d-a8b6-afa26c5c560d)
 	)
