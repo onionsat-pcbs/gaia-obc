@@ -9518,7 +9518,7 @@
 				)
 			)
 		)
-		(property "Footprint" "gaia_obc-footprints:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
+		(property "Footprint" "gaia_obc-footprints:SMA-TH_HL-SMA-KHD2"
 			(at 104.14 153.67 0)
 			(effects
 				(font
