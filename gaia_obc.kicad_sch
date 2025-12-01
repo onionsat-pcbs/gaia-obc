@@ -6157,12 +6157,6 @@
 		(uuid "6bc25156-9241-4f52-bda9-6196422aa3fa")
 	)
 	(junction
-		(at 59.69 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "79fd28e0-b6f1-48c1-8eed-eaf1e6904a2b")
-	)
-	(junction
 		(at 31.75 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6717,7 +6711,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 68.58) (xy 59.69 68.58)
+			(xy 48.26 68.58) (xy 71.12 68.58)
 		)
 		(stroke
 			(width 0)
@@ -7009,16 +7003,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 63.5) (xy 59.69 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bb109e0-118d-46e7-8a24-59e93d25554c")
-	)
-	(wire
-		(pts
 			(xy 113.03 66.04) (xy 125.73 66.04)
 		)
 		(stroke
@@ -7110,16 +7094,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 63.5) (xy 83.82 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58a31397-d9d8-471c-a781-58e4d467e242")
-	)
-	(wire
-		(pts
 			(xy 87.63 156.21) (xy 91.44 156.21)
 		)
 		(stroke
@@ -7190,16 +7164,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 63.5) (xy 69.85 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61babf80-b771-4453-96e6-93c22f4152c4")
-	)
-	(wire
-		(pts
 			(xy 226.06 102.87) (xy 227.33 102.87)
 		)
 		(stroke
@@ -7247,16 +7211,6 @@
 			(type default)
 		)
 		(uuid "688a343d-b380-4ab4-b32f-269029a00511")
-	)
-	(wire
-		(pts
-			(xy 59.69 63.5) (xy 59.69 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a1fd9f5-0304-41af-9ce8-4c4e0bdd404a")
 	)
 	(wire
 		(pts
@@ -7759,16 +7713,6 @@
 			(type default)
 		)
 		(uuid "a2b5ba40-9c8c-4876-814d-2f43c06ed097")
-	)
-	(wire
-		(pts
-			(xy 59.69 68.58) (xy 71.12 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5295861-4576-4cef-ae1f-d7ac56841b0a")
 	)
 	(wire
 		(pts
@@ -10883,83 +10827,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Small")
-		(at 67.31 63.5 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "335a0e1d-3a6d-4da7-b37b-d9ba1d8022ad")
-		(property "Reference" "D1"
-			(at 67.31 61.214 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED_Small"
-			(at 67.2465 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 67.31 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 67.31 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode, small symbol"
-			(at 67.31 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" "1=K 2=A"
-			(at 67.31 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a213fb8b-6fa7-4f64-864e-df8b5874cf8d")
-		)
-		(pin "2"
-			(uuid "a087ff13-ddc8-4a1b-bf31-bc0486553188")
-		)
-		(instances
-			(project "gaia_obc"
-				(path "/049f7784-e0f9-4d41-b308-330ac61e4408"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 40.64 179.07 270)
 		(unit 1)
@@ -11154,75 +11021,6 @@
 			(project "gaia_obc"
 				(path "/049f7784-e0f9-4d41-b308-330ac61e4408"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 80.01 63.5 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "400da353-d004-4e56-ade9-9425408e09f8")
-		(property "Reference" "R6"
-			(at 80.01 61.214 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TBA"
-			(at 84.328 61.214 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 80.01 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 80.01 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1b52c941-e2c2-4bb1-9f18-0732253cbb4e")
-		)
-		(pin "1"
-			(uuid "413db001-a2a3-4185-aade-0edfdf3da9e6")
-		)
-		(instances
-			(project "gaia_obc"
-				(path "/049f7784-e0f9-4d41-b308-330ac61e4408"
-					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -16781,73 +16579,6 @@
 			(project "gaia_obc"
 				(path "/049f7784-e0f9-4d41-b308-330ac61e4408"
 					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 83.82 63.5 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c1f5cd24-f365-4f5d-838b-9adbe2823283")
-		(property "Reference" "#PWR026"
-			(at 90.17 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 87.63 63.4999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 83.82 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2da07e41-a10f-4904-8a6e-e5b3da0a9624")
-		)
-		(instances
-			(project "gaia_obc"
-				(path "/049f7784-e0f9-4d41-b308-330ac61e4408"
-					(reference "#PWR026")
 					(unit 1)
 				)
 			)
