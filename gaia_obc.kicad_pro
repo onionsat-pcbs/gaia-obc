@@ -134,7 +134,7 @@
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
+        "min_text_height": 0.6,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.0,
@@ -227,6 +227,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.3
         },
         {
           "diameter": 0.52,
@@ -767,6 +771,10 @@
     [
       "049f7784-e0f9-4d41-b308-330ac61e4408",
       "Root"
+    ],
+    [
+      "fa315d99-9bd8-49b5-8131-f5f6faa8d42e",
+      "Battery Management System"
     ],
     [
       "2f52491f-f42b-4e90-ba73-93737998193c",

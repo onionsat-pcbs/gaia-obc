@@ -5630,6 +5630,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:VDC"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VDC"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VDC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VDC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VDC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(polyline
 		(pts
@@ -6631,6 +6756,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 38.1) (xy 48.26 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "244a8549-fce4-44af-b1e3-b40127d92b06")
+	)
+	(wire
+		(pts
 			(xy 91.44 179.07) (xy 87.63 179.07)
 		)
 		(stroke
@@ -7341,6 +7476,16 @@
 			(type default)
 		)
 		(uuid "73d0ca95-6b81-4c78-8b53-611254bf72aa")
+	)
+	(wire
+		(pts
+			(xy 50.8 35.56) (xy 48.26 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74035ee2-b729-4c52-81cb-cfeaea84124b")
 	)
 	(wire
 		(pts
@@ -9177,28 +9322,6 @@
 		)
 		(uuid "f829a97a-d0db-4bb4-bc40-22a32bf53177")
 	)
-	(global_label "SPI_0_SCLK"
-		(shape bidirectional)
-		(at 48.26 38.1 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "027dd8b4-16c7-444b-84d2-e3eb71e5ba65")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.3631 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "I2C_2_SDA"
 		(shape bidirectional)
 		(at 227.33 58.42 0)
@@ -9410,50 +9533,6 @@
 		(uuid "65e7b486-6f91-42ff-81e9-c4095e9782f8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 242.2517 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SPI_0_MISO"
-		(shape bidirectional)
-		(at 48.26 33.02 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6bf223d2-1eda-4b63-a573-b0ce34201387")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.1817 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SPI_0_MOSI"
-		(shape bidirectional)
-		(at 48.26 35.56 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "81370768-b8bd-452d-b1ae-10b45412dcea")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.1817 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13983,6 +14062,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDC")
+		(at 48.26 33.02 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93b43b62-59cb-4ac8-85a5-f40d3895f1d2")
+		(property "Reference" "#PWR0191"
+			(at 44.45 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBACKUP"
+			(at 52.07 33.0199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDC\""
+			(at 48.26 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0296c46e-ff1b-481b-a35a-cf493993da07")
+		)
+		(instances
+			(project ""
+				(path "/049f7784-e0f9-4d41-b308-330ac61e4408"
+					(reference "#PWR0191")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED_Small")
 		(at 85.09 152.4 180)
 		(unit 1)
@@ -14266,6 +14412,73 @@
 			(project "gaia_obc"
 				(path "/049f7784-e0f9-4d41-b308-330ac61e4408"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 50.8 35.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97eac9f8-1da5-464e-b17f-a040d2c87b93")
+		(property "Reference" "#PWR0113"
+			(at 57.15 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 54.61 35.5599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c320a7c7-ae59-4882-9742-f55e8dcfa410")
+		)
+		(instances
+			(project "gaia_obc"
+				(path "/049f7784-e0f9-4d41-b308-330ac61e4408"
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -17903,6 +18116,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 50.8 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dce7c91e-4d27-42d2-98ca-b7a8393d2e00")
+		(property "Reference" "#PWR0190"
+			(at 57.15 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 54.61 38.0999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e4a5527-eea5-4515-ab0d-ab308bc0ba5b")
+		)
+		(instances
+			(project "gaia_obc"
+				(path "/049f7784-e0f9-4d41-b308-330ac61e4408"
+					(reference "#PWR0190")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 26.67 160.02 90)
 		(unit 1)
@@ -19000,6 +19280,48 @@
 		(instances
 			(project "gaia_obc"
 				(path "/049f7784-e0f9-4d41-b308-330ac61e4408"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 195.58 135.89)
+		(size 31.75 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fa315d99-9bd8-49b5-8131-f5f6faa8d42e")
+		(property "Sheetname" "Battery Management System"
+			(at 195.58 135.1784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bms.kicad_sch"
+			(at 195.58 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "gaia_obc"
+				(path "/049f7784-e0f9-4d41-b308-330ac61e4408"
 					(page "2")
 				)
 			)
@@ -19192,7 +19514,7 @@
 		(instances
 			(project "gaia_obc"
 				(path "/049f7784-e0f9-4d41-b308-330ac61e4408"
-					(page "3")
+					(page "4")
 				)
 			)
 		)
