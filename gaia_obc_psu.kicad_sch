@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Neptune On-Board Computer")
-		(date "2025-12-12")
-		(rev "1.3")
+		(date "2025-12-28")
+		(rev "1.4")
 	)
 	(lib_symbols
 		(symbol "Device:C_Small"

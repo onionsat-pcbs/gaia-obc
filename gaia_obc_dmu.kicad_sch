@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Neptune On-Board Computer")
-		(date "2025-12-12")
-		(rev "1.3")
+		(date "2025-12-28")
+		(rev "1.4")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_Coaxial_Small"
@@ -3963,10 +3963,6 @@
 		(uuid "2f945693-33e2-4d29-ba43-f312db72a68d")
 	)
 	(no_connect
-		(at 83.82 171.45)
-		(uuid "33fab5c6-53f3-4288-b73b-ff5655234e1a")
-	)
-	(no_connect
 		(at 45.72 109.22)
 		(uuid "370501ac-d075-45d4-8401-fe1b90872734")
 	)
@@ -5063,6 +5059,17 @@
 			(justify right)
 		)
 		(uuid "c8a25400-0ed6-40d4-850a-5c48c14c6336")
+	)
+	(hierarchical_label "LORA_DIO0"
+		(shape bidirectional)
+		(at 83.82 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ce10dc02-e928-4596-92e8-e11b62bc5286")
 	)
 	(hierarchical_label "SCREEN_MOSI"
 		(shape bidirectional)
