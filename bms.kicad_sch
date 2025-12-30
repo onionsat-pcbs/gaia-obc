@@ -7200,7 +7200,7 @@
 				)
 			)
 		)
-		(property "Footprint" "gaia_obc-footprints:BGA20C40P5X4_213X183X69"
+		(property "Footprint" "gaia_obc-footprints:MAXIMBGA20N40P5X4_212X182X69N"
 			(at 190.5 130.48 0)
 			(effects
 				(font
