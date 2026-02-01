@@ -9369,28 +9369,6 @@
 			)
 		)
 	)
-	(global_label "I2C_2_SDA"
-		(shape bidirectional)
-		(at 35.56 27.94 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "16662174-1721-4bfc-95a5-355c9bb1737e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.6664 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "I2C_2_SCL"
 		(shape bidirectional)
 		(at 227.33 60.96 0)
@@ -9404,28 +9382,6 @@
 		(uuid "1eb2f392-0b42-4598-8f1c-7f04294435f7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 241.1631 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "I2C_1_SDA"
-		(shape bidirectional)
-		(at 48.26 27.94 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "23031ee3-61d6-4b33-beb4-1b4c6c0cbca3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.1536 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9459,22 +9415,22 @@
 	)
 	(global_label "I2C_2_SCL"
 		(shape bidirectional)
-		(at 35.56 30.48 180)
+		(at 48.26 30.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "289fd30e-b168-4181-a78e-8ee70370e926")
+		(uuid "2f0d5e94-84aa-43ba-b632-d5bffd1feb07")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.7269 30.48 0)
+			(at 62.0931 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -9589,28 +9545,6 @@
 			)
 		)
 	)
-	(global_label "I2C_1_SCL"
-		(shape bidirectional)
-		(at 48.26 30.48 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d3d3f69e-9968-4d45-ab1a-8d8b95717a56")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.0931 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SPI_0_MISO"
 		(shape bidirectional)
 		(at 227.33 73.66 0)
@@ -9624,6 +9558,28 @@
 		(uuid "f64e40c3-acdb-494b-9077-6310d8c8cb40")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 242.2517 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2C_2_SDA"
+		(shape bidirectional)
+		(at 48.26 27.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fac61019-29a2-4182-b35b-816dd7f891da")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.1536 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
